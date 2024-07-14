@@ -10624,9 +10624,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.index {
-  width: 500px;
-}
 
 .faq {
   color: #000;
@@ -10636,11 +10633,15 @@ textarea.form-control-lg {
 body{
   font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
   line-height: 1.5;
-  
-
 }
 
-.card {
+.navbar
+ {
+  width: 100%;
+ }
+ 
+ 
+ .card {
   border-radius: 0px;
   border: 0px;
   background: #fbf2f2;
@@ -10649,6 +10650,7 @@ body{
 }
 .card-img-overlay {
   border-radius: 0px;
+  width: 100%;
 }
 
 
@@ -10664,6 +10666,7 @@ body{
   background-color: #aa0601;
   padding-top: 0px;
   padding-bottom: 0px;
+  max-width: 100%;
 }
 
 .container {
@@ -10671,9 +10674,11 @@ body{
   margin: 0 auto;
   
 }
+
+
 .navbar-brand {
   align-content: center;
-  height: 72px;
+  max-height: 72px;
 
 }
 
@@ -10730,12 +10735,14 @@ body{
   margin: 0 auto;
   text-align: center;
   background: #fbf2f2;
+  max-width: 100%;
 
 }
 
 .section2 {
   margin: 0 auto;
   text-align: center;
+  max-width: 100%;
 
 }
 
@@ -10751,6 +10758,7 @@ body{
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 0px;
+  max-width: 100%;
 
 }
 .c-title {
@@ -10828,10 +10836,11 @@ body{
   font-size: 48px;
   line-height: 1.5;
   font-weight: 700;
+  max-width: 100%;
 }
 
 .card-img2 {
-  width: 100%;
+  max-width: 100%;
 }
 
 .section3 .col {
@@ -10893,52 +10902,14 @@ body{
   font-size: 48px;
   line-height: 1.5;
   font-weight: 700;
+  max-width: 100%;
 }
 
 .card-img {
   margin-bottom: 0px;
+  max-width: 100%;
 }
 
-/* .pic-4 {
-  box-shadow: 0px 2px 6px #00000029;
-  padding-left: 12px;
-  padding-right: 12px;
-  
-}
-
-
-
-
-.pic-4 img{
-  width: 100%;
-}
-
-.pic-4 h6 {
-  color: #000;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-top: 16px;
-  margin-left: 16px;
-  margin-bottom: 8px;
-  max-width: 274px;
-}
-.pic-4 p {
-  max-width: 274px;
-  color: #000;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-left: 16px;
-  margin-bottom: 72px;
-  margin-right: 16px;
-  font-weight: 300;
-} 
-
-.pic-4 span {
-  color: #707070;
-  font-size: 14px;
-  font-weight: 400;
-  padding-left: 16px;
-} */
 
 .pic-4 {
   box-shadow: 0px 2px 6px #00000029;
@@ -10976,11 +10947,16 @@ body{
   font-weight: 300;
 }
 
+.card-t {
+  max-height: 149px;
+}
+
 .date p{
   color: #707070;
   font-size: 14px;
   font-weight: 400;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
+  padding-top: 48px;
   
 }
 
@@ -11000,9 +10976,16 @@ body{
   line-height: 1.5;
   font-weight: 700;
 }
+
+.box3 {
+  max-width: 100%;
+}
+
+
 .box4 {
     max-width: 636px;
     margin: 0 auto;
+    
 }
 .box4 p {
   font-size: 20px;
@@ -11033,6 +11016,14 @@ body{
   margin: 0 auto;
   text-align: center;
   margin-top: 48px;
+  max-width: 416px;
+  border: 0px;
+  background-color: #aa0601;
+  color: #fff ;
+  text-decoration:  none;
+  padding-top: 16px ;
+  padding-bottom: 16px ;
+  
 }
 
 
@@ -11050,23 +11041,24 @@ body{
   background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true');
   background-size: cover;
   background-position: center;
+  max-width: 100%;
 
 }
 
 .footer {
   background: #aa0601;
+  max-width: 100%;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
 }
 
 .header ul {
   padding-top: 60.02px;
   display: flex;
-
   margin-left: -48px;
 
 
@@ -11082,14 +11074,16 @@ body{
 }
 
 .box6-2 {
-  margin-right: -16px;
+  margin-top: 48px;
+  max-width: 100%;
 }
 
 .box6-2 img{
-  padding-top: 60.02px;
-  width: 48px;
-  margin-left: 16px;
-  margin-right: 16px;
+  
+  max-width: 48px;
+  margin-left: 32px;
+  margin-bottom: 16px;
+  
 }
 
 .tel {
@@ -11125,6 +11119,8 @@ body{
   margin-top: 32px;
   display: flex;
   justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .footer-1 p {
@@ -11135,13 +11131,29 @@ body{
 .two {
   display: flex;
   justify-content: space-between;
-  width: 174px;
   margin-bottom: 32px;
-
+ 
 
 }
 
+.two p {
+  margin-left: 24px;
 
+}
+
+.two-2 {
+  margin-right: 0px;
+}
+.box6-2-1 {
+  margin-right: 0px;
+}
+
+.section3,.section4,.section5,footer{
+  max-width: 100%;
+
+
+
+}
 @media (max-width: 768px) {
 
   .section2 .box2 .row {
@@ -11176,13 +11188,15 @@ body{
    
   }
 
+
   .box6-2 img {
 
     max-width: 768px;
-    padding-top: 60.02px;
-    width: 40px;
     margin-left: 8px;
     margin-right: 8px;
+    color: #fff;
+    padding-top: 60.02px;
+    width: 40px;
   
   
   }
@@ -11190,6 +11204,10 @@ body{
   .section5 {
     padding-left: 36px;
     padding-right: 36px;
+  }
+
+  .box6-1 li{
+    display: none; /* 隐藏图标 */
   }
 
 
@@ -11207,9 +11225,17 @@ body{
     display: flex;
     width: 50%;
     margin: 0px;
-    padding: 12px 0;
+    padding: 12px ;
     justify-content: center;
+   
   }
+
+
+  .navbar .container {
+    padding: 0px;
+
+  }
+
   .navbar-nav {
     display: flex;
     flex-direction: row;
@@ -11217,6 +11243,7 @@ body{
     padding: 0px;
     margin: 0px;
     gap: 0px;
+    margin: 0 auto;
   }
 
 
@@ -11246,24 +11273,61 @@ body{
     padding-right: 36px;
   }
 
+
   .check a {
-    max-width: 336px;
+    max-width: 348px;
     border: 0px;
     background-color: #aa0601;
     color: #fff ;
     text-decoration:  none;
-    padding: 16px 176px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 142px;
+    padding-right: 142px;
    
   }
 
+  .box6-1 ul {
+      margin-bottom: 0px;
 
-
-
-
-
-  .box6-1 li{
-    display: none; /* 隐藏图标 */
   }
+
+
+
+  .box6-2 {
+    margin-top: 0px;
+  }
+
+  .tel {
+    display: flex;
+    margin-top: 0px;
+  }
+  
+  .material-symbols-outlined {
+    color: #ffffff;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 6px;
+    padding-right: 22px;
+    font-size: 18px;
+    font-weight: 200;
+  
+  }
+  
+  
+  
+  .tel h5 {
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 0px;
+    
+  
+  }
+
+
 
   .box6-2 {
     margin-right: 14px;   
@@ -11292,8 +11356,37 @@ body{
   }
 
   .two p{
-padding-top: 8px;
+    padding-top: 8px;
 
   }
+
+}
+
+@media (max-width: 375px) {
+
+
+  .section5 {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+
+  .check {
+    max-width: 348px;
+    border: 0px;
+    text-decoration:  none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    max-width: 348px;
+    background-color: #aa0601;
+    padding-left: 133px;
+    padding-right: 133px;
+   
+   
+  }
+  
+
+
 
 }
